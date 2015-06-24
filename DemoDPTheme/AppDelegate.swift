@@ -15,11 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applyTheme() {
         
-        var mainColor: UIColor = DPTheme.color(0x3F51B5, alpha: 1.0)
-        var secondColor: UIColor = DPTheme.color(0xE0F2F1, alpha: 1.0)
+//        var mainColor: UIColor = DPTheme.color(0x3F51B5, alpha: 1.0)
+        var mainColor: UIColor = DPTheme.color(0x607D8B, alpha: 1.0)
+        var secondColor: UIColor = DPTheme.color(0xFFFFFF, alpha: 1.0)
         let fontName = "Avenir"
         
         DPTheme.setupTheme(mainColor, secondaryColor: secondColor, fontName: fontName, lightStatusBar: true)
+        
+        // custom every control
+        DPTheme.customizeSegmentedControl(mainColor, secondaryColor: secondColor, font: UIFont(name: "\(fontName)NextCondensed-Regular", size: 18))
     }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

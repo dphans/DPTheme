@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>61B26A56-817D-4F64-91EE-C142B2AE9FB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoDPTheme</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>167D69BEA57DFDF8A6934B37589749B7C9147C77</key>
+		<string>https://github.com/dphans/DPTheme.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DemoDPTheme.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>167D69BEA57DFDF8A6934B37589749B7C9147C77</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dphans/DPTheme.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>167D69BEA57DFDF8A6934B37589749B7C9147C77</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>167D69BEA57DFDF8A6934B37589749B7C9147C77</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DPTheme</string>
+		</dict>
+	</array>
+</dict>
+</plist>

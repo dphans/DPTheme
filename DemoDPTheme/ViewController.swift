@@ -9,19 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var profileImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "DPTheme Demo"
+        profileImage.clipsToBounds = true
+        profileImage.layer.cornerRadius = profileImage.frame.size.height/2
+        profileImage.layer.borderColor = UIColor.whiteColor().CGColor
+        profileImage.layer.borderWidth = 3
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

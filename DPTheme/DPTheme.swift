@@ -47,8 +47,16 @@ class DPTheme: NSObject {
             self.customizeSlider(maincolor)
             self.customizePageControl(maincolor)
             self.customizeToolbar(maincolor)
-            
+            self.customizeTableView(maincolor)
+            self.customizeProgress(maincolor)
     }
+    
+    // UITableView
+    internal static func customizeTableView(tintColor: UIColor) {
+        UITableView.appearance().tintColor = tintColor
+        UITableView.appearance().separatorColor = tintColor
+    }
+    
     
     // UINavigationBar
     internal static func customizeNavigationBar(
@@ -68,6 +76,7 @@ class DPTheme: NSObject {
         buttonColor: UIColor) {
             UINavigationBar.appearance().barTintColor = barColor
             UINavigationBar.appearance().tintColor = buttonColor
+            UINavigationBar.appearance().backgroundColor = barColor
             var font = UIFont(name: fontName, size: fontSize)
             if ((font) != nil) {
                 UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: textColor,
@@ -135,6 +144,23 @@ class DPTheme: NSObject {
         mainColor: UIColor,
         secondaryColor: UIColor) {
             UISegmentedControl.appearance().tintColor = mainColor
+    }
+    
+    internal static func customizeSegmentedControl(
+        mainColor: UIColor,
+        secondaryColor: UIColor,
+        font: UIFont!) {
+            UISegmentedControl.appearance().tintColor = mainColor
+            if (font != nil) {
+                UISegmentedControl.appearance().setTitleTextAttributes([NSFontAttributeName: font], forState: .Normal)
+            }
+    }
+    
+    
+    // UIProgress
+    internal static func customizeProgress(
+        color: UIColor) {
+        UIProgressView.appearance().tintColor = color
     }
     
     
