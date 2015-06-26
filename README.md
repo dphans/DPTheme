@@ -22,5 +22,11 @@ DPTheme.setupTheme(
 
 - (Optional) Go to your Info.plist file and set value for key 'View controller-based status bar appearance' is 'NO' for the status bar to be set to light content.
 
+- You can custom color for each controls, for example:
+``` swift
+DPTheme.customizeButton(UIColor.redColor())
+```
+
+
 # Contact
 Email: baophan94@icloud.com. Website: http://www.dinophan.com

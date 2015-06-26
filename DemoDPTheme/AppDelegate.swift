@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // custom every control
         DPTheme.customizeSegmentedControl(mainColor, secondaryColor: secondColor, font: UIFont(name: "\(fontName)NextCondensed-Regular", size: 18))
+        
     }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
