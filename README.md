@@ -1,6 +1,6 @@
 # DPTheme
 DPTheme help you set default theme color for your app.
-Shorten the time customization for UIControls with just one line of code.
+Shorten the time of customization for UIControls with just one line of code.
 
 <img src="https://github.com/dphans/DPTheme/blob/master/Screenshot2.png" alt="Screenshot" style="width: 320px;"/>
 ![alt tag](https://raw.githubusercontent.com/dphans/DPTheme/master/Screenshot.png)
