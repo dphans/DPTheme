@@ -10,8 +10,8 @@ Shorten the time of customization for UIControls with just one line of code.
 
 - Just one simple line of code inside 'didFinishLaunchingWithOptions':
 ``` swift
-var mainColor: UIColor = DPTheme.color(0x009688, alpha: 1.0)
-var secondColor: UIColor = DPTheme.color(0xE0F2F1, alpha: 1.0)
+let mainColor: UIColor = DPTheme.color(0x009688, alpha: 1.0)
+let secondColor: UIColor = DPTheme.color(0xE0F2F1, alpha: 1.0)
 let fontName = "Avenir"
 
 DPTheme.setupTheme(
