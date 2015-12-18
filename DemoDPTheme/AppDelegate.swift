@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applyTheme() {
         
 //        var mainColor: UIColor = DPTheme.color(0x3F51B5, alpha: 1.0)
-        var mainColor: UIColor = DPTheme.color(0x607D8B, alpha: 1.0)
-        var secondColor: UIColor = DPTheme.color(0xFFFFFF, alpha: 1.0)
+        let mainColor: UIColor = DPTheme.color(0x607D8B, alpha: 1.0)
+        let secondColor: UIColor = DPTheme.color(0xFFFFFF, alpha: 1.0)
         let fontName = "Avenir"
         
         DPTheme.setupTheme(mainColor, secondaryColor: secondColor, fontName: fontName, lightStatusBar: true)
