@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak let profileImage: UIImageView!
+    weak var profileImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()

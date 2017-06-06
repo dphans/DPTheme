@@ -77,7 +77,7 @@ class DPTheme: NSObject {
             UINavigationBar.appearance().barTintColor = barColor
             UINavigationBar.appearance().tintColor = buttonColor
             UINavigationBar.appearance().backgroundColor = barColor
-            var font = UIFont(name: fontName, size: fontSize)
+            let font = UIFont(name: fontName, size: fontSize)
             if ((font) != nil) {
                 UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: textColor,
                     NSFontAttributeName: font!
@@ -102,7 +102,7 @@ class DPTheme: NSObject {
             UITabBar.appearance().barTintColor = barColor
             UITabBar.appearance().tintColor = textColor
             
-            var font = UIFont(name: fontName, size: fontSize)
+            let font = UIFont(name: fontName, size: fontSize)
             if ((font) != nil) {
                 UITabBarItem.appearance().setTitleTextAttributes([NSFontAttributeName: font!], forState: .Normal)
             }
