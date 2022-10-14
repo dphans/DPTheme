@@ -30,4 +30,4 @@ DPTheme.customizeButton(UIColor.redColor())
 
 
 # Contact
-Email: baophan94@icloud.com. Website: http://www.dinophan.com - Thanks to @ThanhHuong98.
+Email: baophan94@icloud.com. Website: https://www.dphans.me.
